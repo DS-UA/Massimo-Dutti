@@ -1,0 +1,29 @@
+.carousel-inner {
+    height: 70vh;
+}
+.carousel-inner img{
+    position: absolute;
+}
+
+.carousel-inner h3{
+    position: relative;
+    text-align: center;
+    padding-top: 38.5vh;
+    font-size: 3em;
+    font-weight: bold;
+}
+
+
+@media (max-width: 776px) {
+     .carousel-inner img{
+        height: 100vh;
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+}
+
+
+
+
+

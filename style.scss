@@ -1,0 +1,242 @@
+@import './reset';
+@import './burgerMenu.scss';
+@import './node_modules/bootstrap/dist/css/bootstrap.min.css';
+
+
+.main-container {
+    margin-top: -64px;
+}
+
+.header__menu {
+    height: 64px;
+    padding: 0 26px;
+    background-color: #0000001c;
+    
+
+
+.menu {
+    padding-right: 8px;
+    padding-left: 8px;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}    
+
+.menu_right a {
+    padding: 16px 8px;
+    text-decoration: none;
+    color: white;
+}
+
+.menu_right li {
+    display: inline-block;
+    list-style: none;
+}
+
+.menu_right ul {
+list-style: none;
+}
+
+.menu_right {
+z-index: 2;
+margin-right: 8px;
+font-size: 16px;
+font-weight: bold;
+}
+
+.menu_logo {
+    z-index: 2;
+    left: 24px;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    padding-left: 20px;
+    padding-top: 0.9em;
+}
+.logo img{
+    max-width: 18em;
+}
+}
+
+.well {
+	position: relative;
+	overflow: hidden;
+	transition: 1s cubic-bezier(0.6, 0, 0.6, 1);
+    z-index: 1;
+
+.panel {
+	position: relative;
+	height: 100vh;
+	overflow: hidden;
+	box-sizing: border-box;
+	cursor: default;
+}
+
+.panel img {
+    width: 100%;
+    position: absolute;
+    height: 100vh;
+    margin-left: 0;
+    object-fit: cover;
+    object-position: center;
+    
+}
+
+.well__panel__h2{
+    position: relative;
+    text-align: center;
+    padding-top: 41.5vh;
+    font-size: 3em;
+}
+
+.lastPage{
+    position: relative;
+color: black;
+}
+
+.lastPage__text{
+    width: 100%;
+}
+
+.lastPage__text__subs{
+padding-top: 10em;
+text-align: center;
+}
+
+.lastPage__text__subs_h3{
+    display: inline-block;
+    max-width: 300px;
+    font-family: monospace;
+    font-size: 1.7em;
+}
+
+.lastPage__text__subs_input {
+padding: 2em;
+}
+
+.lastPage__text__subs_input input{
+    padding: 12px 0pt 12px 12px;
+    max-width: 33em;
+    border-radius: 0.5em;
+    border: 2px solid black;
+    font-size: 1em;
+}
+
+.lastPage__text__subs_input input ::placeholder{
+color: rgb(160, 160, 160);
+}
+
+.lastPage__text__subs_button{
+max-width: 21em;
+height: 2.5em;
+background: black;
+color: white;
+font-family: cursive;
+}
+
+
+.lastPage__text__block{
+display: flex;
+padding: 55px 156px;
+justify-content: space-around;
+color: black;
+}
+
+.info_block{
+    list-style: none;
+
+}
+
+.lastPage__text_block_info a{
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+}
+
+.info_block .active {
+    padding-bottom: 15px;
+}
+
+.info_block li{
+    padding: 5px;
+}
+
+
+
+.info_block__store_apple img{
+max-width: 100px;
+height: auto;
+}
+
+.info_block__store_android img{
+    max-width: 100px;
+    padding-top: 20px;
+    height: auto;
+    }
+
+.lastPage__text_regions{
+    display: flex;
+    padding: 0 150px;
+} 
+.vertical-separator{
+    padding: 0px 8px;
+}
+.language-list{
+    display: flex;
+    gap: 8px;
+.language a{
+    color:darkgrey;
+    text-decoration: none;
+}  
+.language_active a{
+    color: black;
+    text-decoration: none;
+}  
+}
+
+
+.footer__text_aboutCookie{
+    padding-top: 20px;
+    text-align: center;
+}
+    .footer__text_aboutCookie a{
+    text-decoration: none;
+    color: darkgray;
+}    
+}
+
+
+
+
+
+
+   @media only screen and (max-width: 850px){           
+    .menu_right{
+        display: none;
+    } 
+   }
+
+
+     @media only screen and (max-width: 850px){           
+    .lastPage__text_block_info li{
+        display: none;
+    } 
+    .lastPage__text_block_info .active{
+        display: flex;
+    } 
+   }
+
+
+   @media only screen and (max-width: 850px){           
+    .lastPage__text__block{
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+    } 
+   }

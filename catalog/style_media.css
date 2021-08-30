@@ -1,0 +1,16 @@
+.container .navbar-brand img {
+  width: 300px;
+}
+
+@media screen and (max-width: 410px) {
+  .container .navbar-brand img {
+    width: 250px;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  .container .navbar-brand img {
+    width: 170px;
+  }
+}
+/*# sourceMappingURL=style_media.css.map */
